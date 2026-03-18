@@ -60,5 +60,5 @@ Personal repository of MorphEO project.
 
 ### [WP1.3 Reference data collection]
 
-[MorphEO_WP1.3.ipynb](https://vscode.dev/github/GeoKauko/morpheo/blob/main/scripts/MorphEO_WP1.3.ipynb) located in the scripts folder.
+MorphEO_WP1.3.ipynb located in the scripts folder.
 
