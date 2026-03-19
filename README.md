@@ -23,7 +23,8 @@ Personal repository of MorphEO project.
 
 ##### Datasets
 
-- [Fagradalsfjall DEMs, ortho, and lava outlines](https://zenodo.org/records/7871187) -> DEMs, 5 aerial surveys (Aug 2022), 1 satellite survey (Aug 2022), 1 aerial survey of eruption sites (Sep 2022), and lava area outlines for the August 2022 eruption at Fagradalsfjall
+- [Fagradalsfjall DEMs, ortho, and lava outlines, 2022](https://zenodo.org/records/7871187) -> DEMs, 5 aerial surveys (Aug 2022), 1 satellite survey (Aug 2022), 1 aerial survey of eruption sites (Sep 2022), and lava area outlines for the August 2022 eruption at Fagradalsfjall
+- [Fagradalsfjall DEMs, ortho, and lava outlines, 2021](https://zenodo.org/records/7866738) -> Digital Elevation Models (DEMs), orthoimages and lava outlines created as part of the near-real time monitoring of the Fagradalsfjall 2021 eruption (SW-Iceland).
 - [Fagradalsfjall DEMs, ortho, GCPs, video, time-lapse](https://arizona.figshare.com/collections/Fagradalsfjall_Iceland_Eruption/6175633/4) -> DEMs and UAV orthophotos, Ground control point locations, UAS nadir video of lava flow, Time-lapse image sequences of the eruption
 - [ÍslandsDEM útgáfa 1.0](https://gatt.lmi.is/geonetwork/srv/eng/catalog.search#/metadata/e6712430-a63c-4ae5-9158-c89d16da6361) -> Iceland DEM
 - [ArcticDEM](https://fridge.pgc.umn.edu/) -> DEM covering the Arctic, including Iceland
