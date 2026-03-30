@@ -55,20 +55,20 @@ Personal repository of MorphEO project.
 
 ---
 
-## WP1
+## Scripts
 
 ---
 
-### [WP1.3 Reference data collection]
+### WP1.3 Reference data collection
 
 MorphEO_WP1.3.ipynb located in the scripts folder.
 
-### [Vector data cube for evolving features]
+### Vector data cube for evolving features
 
 Python translation of the [original computational notebook](https://github.com/loreabad6/vdc-space-time-feats/blob/main/notebook/vdc-showcase.md) created by Lorena Abad.
 Located in the scripts folder.
 
-### [OBIA lake outlines]
+### OBIA lake outlines
 
 Script to create lake outlines of the Jökulsárlón glacial lake based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf)
 
