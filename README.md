@@ -8,11 +8,13 @@ Personal repository of MorphEO project.
 
 - [Study Areas](#study-areas)
   - [🇮🇸 Iceland](#-iceland)
-- [Scripts](#scripts)
+- [Scipts](#scripts)
   - [WP1.3 Reference data collection](#wp13-reference-data-collection)
   - [Vector data cube for evolving features](#vector-data-cube-for-evolving-features)
-  - [OBIA lake outlines](#obia-lakes)
-  - [Glacial lakes VDC](#glacial-lakes-vdc)
+  - [OBIA Sentinel lake outlines](#obia-sentinel-lake-outlines)
+  - [OBIA Landsat lake outlines](#obia-landsat-lake-outlines)
+- [Data](#data)
+
 ---
 
 ## Study Areas
@@ -58,21 +60,30 @@ Personal repository of MorphEO project.
 
 ## Scripts
 
+The contents of the scripts folder including scripts and environment.
+
 ---
 
 ### WP1.3 Reference data collection
 
-MorphEO_WP1.3.ipynb located in the scripts folder.
+MorphEO_WP1.3.ipynb
 
 ### Vector data cube for evolving features
 
 Python translation of the [original computational notebook](https://github.com/loreabad6/vdc-space-time-feats/blob/main/notebook/vdc-showcase.md) created by Lorena Abad.
-Located in the scripts folder.
 
-### OBIA lakes
+### OBIA Sentinel lake outlines
 
-Script to create lake outlines of the Jökulsárlón glacial lake from Sentinel-2 images using openEO based on the OBIA method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf)
+Script to create lake outlines of the Jökulsárlón glacial lake (2016-2025) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Sentinel-1 and Sentinel-2.
 
-### Glacial lakes VDC
+### OBIA Landsat lake outlines
 
-Vector data cube script adapted to the Jökulsárlón area glacial lakes from 2016 - 2025.
+Script to create lake outlines of the Jökulsárlón glacial lake (1985-2015) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Landsat 5-8 and ArcticDEM V4.
+
+### Glacial lake vector data cube
+
+Notebook to create a vector data cube with the glacial lake outlines obtained with OBIA.
+
+## Data
+
+Preliminary data required for the scripts, and their output data (large files such as outlines and TIFs are not loaded here)
