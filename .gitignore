@@ -9,4 +9,4 @@ config.py
 __pycache__/
 
 # Jupyter notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
