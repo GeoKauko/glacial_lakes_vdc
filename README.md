@@ -10,10 +10,6 @@ Personal repository of MorphEO project.
   - [🇮🇸 Iceland](#-iceland)
 - [Workflow](#workflow)  
 - [Scripts](#scripts)
-  - [WP1.3 Reference data collection](#wp13-reference-data-collection)
-  - [Vector data cube for evolving features](#vector-data-cube-for-evolving-features)
-  - [OBIA Sentinel lake outlines](#obia-sentinel-lake-outlines)
-  - [OBIA Landsat lake outlines](#obia-landsat-lake-outlines)
 - [Data](#data)
 
 ---
@@ -75,30 +71,30 @@ The contents of the scripts folder including scripts and environment.
 
 ---
 
-### Glacial Lake Mapping with Sentinel-1 and Sentinel-2 (2016–2025): [`1_OBIA_lakes_S1S2.ipynb`](1_OBIA_lakes_S1S2.ipynb)
+### [`1_OBIA_lakes_S1S2.ipynb`](1_OBIA_lakes_S1S2.ipynb): Glacial Lake Mapping with Sentinel-1 and Sentinel-2 (2016–2025)
 
 Script to create lake outlines of the Jökulsárlón glacial lake (2016-2025) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Sentinel-1 and Sentinel-2.
 
-### Glacial Lake Mapping with Landsat via Google Earth Engine (1985–2015): [`2_OBIA_lakes_LS.ipynb`](2_OBIA_lakes_LS.ipynb)
+### [`2_OBIA_lakes_LS.ipynb`](2_OBIA_lakes_LS.ipynb): Glacial Lake Mapping with Landsat via Google Earth Engine (1985–2015)
 
 Script to create lake outlines of the Jökulsárlón glacial lake (1985-2015) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Landsat 5-8 and ArcticDEM V4.
 
-### Glacial Lake Vector Data Cube Construction, Feature Grouping and Summary Geometries: [`3_glacial_lakes_VDC.ipynb`](3_glacial_lakes_VDC_comparisons.ipynb)
+### [`3_glacial_lakes_VDC.ipynb`](3_glacial_lakes_VDC_comparisons.ipynb): Glacial Lake Vector Data Cube Construction, Feature Grouping and Summary Geometries
 
 Notebook to create a vector data cube with the glacial lake outlines obtained with OBIA.
 
-### Trial Script: [`MorphEO_WP1.3.ipynb`](MorphEO_WP1.3.ipynb)
+### [`MorphEO_WP1.3.ipynb`](MorphEO_WP1.3.ipynb): Trial Script
 
 **not important**
 A script from the beginning of the project.
 
-### Vector data cube for evolving features: [`VDC_py.ipynb`](VDC_py.ipynb)
+### [`VDC_py.ipynb`](VDC_py.ipynb): Vector data cube for evolving features
 
 Python translation of the [original computational notebook](https://github.com/loreabad6/vdc-space-time-feats/blob/main/notebook/vdc-showcase.md) created by Lorena Abad.
 
-### Getting to know xvec package: [`xvec_intro.ipynb`](xvec_intro.ipynb)
+### [`xvec_intro.ipynb`](xvec_intro.ipynb): Getting to know xvec package
 
-### Computing zonal statistics on xvec: [`zonal_st.ipynb`](zonal_st.ipynb)
+### [`zonal_st.ipynb`](zonal_st.ipynb): Computing zonal statistics on xvec
 
 ---
 
