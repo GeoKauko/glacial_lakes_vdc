@@ -1,1 +1,12 @@
-data/output/*.nc
+# large files to free space
+data/output/
+.tif
+
+# configuration
+config.py
+
+# cache
+__pycache__/
+
+# Jupyter notebook
+.ipynb_checkpoints/

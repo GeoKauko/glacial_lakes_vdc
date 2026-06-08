@@ -8,7 +8,8 @@ Personal repository of MorphEO project.
 
 - [Study Areas](#study-areas)
   - [🇮🇸 Iceland](#-iceland)
-- [Scipts](#scripts)
+- [Workflow](#workflow)  
+- [Scripts](#scripts)
   - [WP1.3 Reference data collection](#wp13-reference-data-collection)
   - [Vector data cube for evolving features](#vector-data-cube-for-evolving-features)
   - [OBIA Sentinel lake outlines](#obia-sentinel-lake-outlines)
@@ -58,32 +59,80 @@ Personal repository of MorphEO project.
 
 ---
 
+## Workflow
+
+---
+
+1. Detect glacial lake outlines from Sentinel-1 and Sentinel-2 data (2016-2025) using OBIA
+2. Detect glacial lake outlines from Landsat data (1985-2015) using OBIA
+3. Build a vector data cube using the glacial lake outlines
+
+---
+
 ## Scripts
 
 The contents of the scripts folder including scripts and environment.
 
 ---
 
-### WP1.3 Reference data collection
-
-MorphEO_WP1.3.ipynb
-
-### Vector data cube for evolving features
-
-Python translation of the [original computational notebook](https://github.com/loreabad6/vdc-space-time-feats/blob/main/notebook/vdc-showcase.md) created by Lorena Abad.
-
-### OBIA Sentinel lake outlines
+### Glacial Lake Mapping with Sentinel-1 and Sentinel-2 (2016–2025): [`1_OBIA_lakes_S1S2.ipynb`](1_OBIA_lakes_S1S2.ipynb)
 
 Script to create lake outlines of the Jökulsárlón glacial lake (2016-2025) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Sentinel-1 and Sentinel-2.
 
-### OBIA Landsat lake outlines
+### Glacial Lake Mapping with Landsat via Google Earth Engine (1985–2015): [`2_OBIA_lakes_LS.ipynb`](2_OBIA_lakes_LS.ipynb)
 
 Script to create lake outlines of the Jökulsárlón glacial lake (1985-2015) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Landsat 5-8 and ArcticDEM V4.
 
-### Glacial lake vector data cube
+### Glacial Lake Vector Data Cube Construction, Feature Grouping and Summary Geometries: [`3_glacial_lakes_VDC.ipynb`](3_glacial_lakes_VDC_comparisons.ipynb)
 
 Notebook to create a vector data cube with the glacial lake outlines obtained with OBIA.
+
+### Trial Script: [`MorphEO_WP1.3.ipynb`](MorphEO_WP1.3.ipynb)
+
+**not important**
+A script from the beginning of the project.
+
+### Vector data cube for evolving features: [`VDC_py.ipynb`](VDC_py.ipynb)
+
+Python translation of the [original computational notebook](https://github.com/loreabad6/vdc-space-time-feats/blob/main/notebook/vdc-showcase.md) created by Lorena Abad.
+
+### Getting to know xvec package: [`xvec_intro.ipynb`](xvec_intro.ipynb)
+
+### Computing zonal statistics on xvec: [`zonal_st.ipynb`](zonal_st.ipynb)
+
+---
 
 ## Data
 
 Preliminary data required for the scripts, and their output data (large files such as outlines and TIFs are not loaded here)
+
+---
+
+## Setup
+
+### 1. Install the environment
+```bash
+conda env create -f env.yaml
+```
+
+### 2. Activate the environment
+```bash
+conda activate glacial_lakes
+```
+
+### 3. Register as a Jupyter kernel
+```bash
+python -m ipykernel install --user --name glacial_lakes --display-name "glacial_lakes"
+```
+
+### 4. Configure local paths
+Copy the template and set your local project root:
+```bash
+cp config_template.py config.py
+```
+Then open `config.py` and set `ROOT_DIR` to your local project path.
+
+### 5. Run the notebooks in order
+> **Important:** Manually review the lake outlines produced by notebooks 1 and 2 before running notebook 3.
+
+---
