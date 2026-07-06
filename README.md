@@ -79,10 +79,12 @@ Script to create lake outlines of the Jökulsárlón glacial lake (2016-2025) ba
 
 Script to create lake outlines of the Jökulsárlón glacial lake (1985-2015) based on the method by [Dabiri et al 2021](moz-extension://bc18e54e-46b5-47f8-9750-d48b8835d745/enhanced-reader.html?openApp&pdf=https%3A%2F%2Faustriaca.at%2F0xc1aa5576%25200x003c9b50.pdf). The script uses Landsat 5-8 and ArcticDEM V4.
 
+### [`3_glacial_lakes_VDC.ipynb`](3_glacial_lakes_VDC_comparisons.ipynb): Glacial Lake Vector Data Cube Construction, Feature Grouping and Summary Geometries
 ### [`3_glacial_lakes_VDC_comparisons.ipynb`](3_glacial_lakes_VDC_comparisons.ipynb): Glacial Lake Vector Data Cube Construction, Feature Grouping and Summary Geometries
 
 Notebook to create a vector data cube with the glacial lake outlines obtained with OBIA.
 
+### [`MorphEO_WP1.3.ipynb`](MorphEO_WP1.3.ipynb): Trial Script
 ### [`4_glacial_lakes_VDC_querying.ipynb`](4_glacial_lakes_VDC_querying.ipynb)
 
 Loading the created VDC and using it for querying and zonal statistics.
